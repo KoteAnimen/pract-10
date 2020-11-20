@@ -42,5 +42,15 @@ namespace pract_10
                 j++;
             }
         }
+
+        private void AboutUs_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Филяк ИСП-31, вариант 1. В первом одномерном массиве хранятся затраты на производство продуктов, во втором — цены на эти продукты. Указать номер первого продукта, затраты на производство которого превышают цены. ");
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

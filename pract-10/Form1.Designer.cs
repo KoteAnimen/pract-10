@@ -70,12 +70,14 @@
             this.AboutUs.Name = "AboutUs";
             this.AboutUs.Size = new System.Drawing.Size(94, 20);
             this.AboutUs.Text = "О программе";
+            this.AboutUs.Click += new System.EventHandler(this.AboutUs_Click);
             // 
             // Exit
             // 
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(54, 20);
             this.Exit.Text = "Выход";
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // tabControl1
             // 
