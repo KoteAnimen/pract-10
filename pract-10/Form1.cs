@@ -13,8 +13,8 @@ namespace pract_10
     public partial class Form1 : Form
     {
         public int id = 0;
-        public List<int> cost_Self = new List<int>();
-        public List<int> cost_Sell = new List<int>();
+        public List<int> cost_Self = new List<int>();//затраты на производство
+        public List<int> cost_Sell = new List<int>();//цена продукта
 
         public Form1()
         {
